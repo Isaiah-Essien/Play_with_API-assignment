@@ -74,6 +74,9 @@ The `getLatestCOVID19Data` function makes a `GET` request to the COVID-19 statis
 - I have deployed this app on Netlify: https://nimble-crumble-1dd6f9.netlify.app/
 Feel free to check it out.
 
+## Link to video explaining how this app works
+- https://www.loom.com/share/60e2e779b30e4f5392f674877740b79c?sid=ef80065c-72ff-4af4-8411-0b1d0495b23d
+
 - Please, don't copy my codes. 😂😂😂!
 - And don't use my application key 😒😒
 - This is all done by Isaiah Essien. Wow me by doing it your self, mate.
