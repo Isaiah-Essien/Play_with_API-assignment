@@ -30,35 +30,35 @@ This project uses the RapidAPI for COVID-19 to fetch the latest statistics. The 
 
 ### Example API Request
 
-```javascript
-fetch('https://covid-193.p.rapidapi.com/statistics', {
-method: 'GET',
-headers: {
- 'X-RapidAPI-Key': 'your_api_key_here'
-}
-})
-.then(response => response.json())
-.then(data => {
- // Update UI with data
-})
-.catch(error => console.error('Error fetching data:', error));
+- ```javascript
+- fetch('https://covid-193.p.rapidapi.com/statistics', {
+- method: 'GET',
+- headers: {
+- 'X-RapidAPI-Key': 'your_api_key_here'
+- }
+- })
+- .then(response => response.json())
+- .then(data => {
+-  // Update UI with data
+- })
+- .catch(error => console.error('Error fetching data:', error));
 
 
 ### How the Javascript code works:
 
 The JavaScript code in this project is responsible for fetching the latest COVID-19 statistics using the RapidAPI. It dynamically updates the user interface with the retrieved data based on user interaction.
 
-### `onLoad` Function
+### onLoad` Function
 
 The `onLoad` function is immediately invoked when the page loads. It sets up button functions and fetches the latest COVID-19 data.
 
-### `setButtonFunctions` Function
+### setButtonFunctions` Function
 
-The `setButtonFunctions` function sets up an event listener for the `countries` dropdown. When a country is selected, the function filters the COVID-19 data to find the selected country's data and updates the UI accordingly.
+- The setButtonFunctions ` function sets up an event listener for the `countries` dropdown. When a country is selected, the function filters the COVID-19 data to find the selected country's data and updates the UI accordingly.
 
-### `getLatestCOVID19Data` Function
+###  getLatestCOVID19Data` Function
 
-The `getLatestCOVID19Data` function makes a `GET` request to the COVID-19 statistics API using the Fetch API. It populates the `countries` dropdown with all available countries and saves the retrieved COVID-19 data to the `covid19data` global variable.
+- The `getLatestCOVID19Data` function makes a `GET` request to the COVID-19 statistics API using the Fetch API. It populates the `countries` dropdown with all available countries and saves the retrieved COVID-19 data to the `covid19data` global variable.
 
 
 
